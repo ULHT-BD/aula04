@@ -1,13 +1,24 @@
 # aula04
-Requisitos: Para esta aula, precisa de ter o ambiente de trabalho configurado (Docker com base de dados HR e DBeaver). Caso ainda não o tenha feito, veja como fazer seguindo o passo 1 da [aula anterior](https://github.com/ULHT-BD/aula03/edit/main/README.md#1-prepare-o-seu-ambiente-de-trabalho)  
-[1. Prepare o seu ambiente de trabalho](#1-prepare-o-seu-ambiente-de-trabalho)
+## SELECT: expressões aritméticas, valores nulos, inclusão de literais, DISTICNT, ORDER BY
 
-[2. Comando Select](#2-comando-select)
+Requisitos: Para esta aula, precisa de ter o ambiente de trabalho configurado (Docker com base de dados HR e DBeaver). Caso ainda não o tenha feito, veja como fazer seguindo o passo 1 da [aula anterior](https://github.com/ULHT-BD/aula03/edit/main/README.md#1-prepare-o-seu-ambiente-de-trabalho) 
 
-[3. Comando Insert](#3-comando-insert)
+[1. Expressões Aritméticas](#1-expressões-aritméticas)
 
-[4. Comando Update](#4-comando-update)
+[2. Valores Nulos](#2-valores-nulos)
 
-[5. Comando Delete](#5-comando-delete)
+[3. Inclusão de Literais](#3-inclusão-de-literais)
 
-## 1. Prepare o seu ambiente de trabalho
+[4. DISTINCT](#4-distinct)
+
+[5. ORDER BY](#5-order-by)
+
+## 1. Expressões Aritméticas
+
+## 2. Valores Nulos
+
+## 3. Inclusão de Literais
+
+## 4. DISTINCT
+
+## 5. ORDER BY
