@@ -1,5 +1,6 @@
 # aula04
-## SELECT: expressões aritméticas, valores nulos, inclusão de literais, DISTINCT, ORDER BY
+Nesta aula continuamos a trabalhar a linguagem SQL. Veremos como usar expressões aritméticas em queries, o que é o valor NULL e como o manipular, quais os tipos de literais ou constantes e como são representados, como eliminar valores repetidos com o operador DISTINCT e também como ordenar os resultados com recurso ao ORDER BY.
+Bom trabalho!
 
 [0. Requisitos](#0-requisitos)
 
