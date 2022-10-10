@@ -7,7 +7,7 @@
 
 [2. Valores Nulos](#2-valores-nulos)
 
-[3. Inclusão de Literais](#3-inclusão-de-literais)
+[3. Literais](#3-literais)
 
 [4. DISTINCT](#4-distinct)
 
@@ -79,23 +79,25 @@ Para cada uma das alíneas seguintes, escreva a query que permite obter:
 
 4. Qual o primeiro valor não ```NULL``` da lista (NULL, 'Lisboa', 'Porto', NULL, 'Braga')
 
-## 3. Inclusão de Literais
-https://www.geeksforgeeks.org/sql-literals/
-O operador SELECT permite efetuar operações aritméticas entre escalares e/ou atributos. A sintaxe é:
-``` sql
-SELECT expressão operador expressão, ...
-FROM relacao;
-```
-onde uma expressão pode ser um atributo, mas também uma variável ou uma constante, e o operador pode ser ```+``` (adição), ```-``` (subtração), ```*``` (multiplicação), ```/``` (divisão) ou ```%``` (resto da divisão inteira). Exemplo:
-* Que idade terão os estudantes após os 3 anos de curso
-``` sql
-SELECT nome, idade, idade + 3 AS idade_finalista
-FROM estudante;
-```
-NOTA: ```idade + 3 AS idade_finalista``` permite renomear o nome da coluna ```idade + 3``` em ```idade_finalista```. Podemos ainda, para simplificar, omitir a palavra ```AS``` e escrever ```idade + 3 idade_finalista```
+## 3. Literais
+Em SQL existem vários tipos de literais: string, numérico (exato e aproximado), data e hora, hexadecimal, binário ou boleano
+| Literal | Exemplo | Descrição |
+| ------- | ------- | --------- |
+| String | "Teresa", 'Lisboa'  | Sequências de caractéres delimitadas por aspas (```"```) ou plicas (```'```) |
+| Numerico (inteiro) | 1, 43, -210  | Um valor numérico inteiro exato |
+| Numerico (decimal) | 0.5, 8.04, 1000.1  | Um valor numérico exato contendo parte inteira e parte decimal |
+| Numerico (vírgula flutuante) | 2e-8, 1.34524e-24, 342.453 | Um valor numérico de virgula flutuante, i.e. sem número fixo de digitos à esquerda ou direita da vírgula |
+| Data e Hora | '1998-03-15', '19980315', '1998-03-15 18:54:21.5' | Várias formatos possíveis para representar data e hora |
+| Hexadecimal | x'123', X'123', 0x123 | Valores hexadecimais podem ser representados utilizando a notação ```x'valor'```, ```X'valor'``` ou ```0xvalor``` |
+| Binário | b'0011', B'0011', 0b0011 | Valores binários podem ser representados utilizando a notação ```b'valor'```, ```B'valor'``` ou ```bvalor``` |
+| Booleano | TRUE, FALSE | Os valores booleanos ```TRUE``` e ```FALSE``` são avaliados como ```1``` e ```0``` respetivamente |
 
 ### Exercícios
 Para cada uma das alíneas seguintes, escreva a query que permite obter:
+1. A constante 'Base de Dados'
+2. O valor 10 dividido por 3
+3. O hexadecimal de 'bd2022'
+4. O valor 0100 em binário
 
 ## 4. DISTINCT
 O operador DISTINCT permite obter apenas valores distintos/diferentes, i.e. permite remover duplicados.
@@ -149,6 +151,7 @@ Para cada uma das alíneas seguintes, escreva a query que permite obter:
 ## Bibliografia e Referências
 * [w3schools - SQL Operators](https://www.w3schools.com/sql/sql_operators.asp)
 * [w3schools - NULL values](https://www.w3schools.com/sql/sql_null_values.asp)
+* [geeksforgeeks - SQL Literals](https://www.geeksforgeeks.org/sql-literals/)
 * [w3schools - DISTINCT](https://www.w3schools.com/sql/sql_distinct.asp)
 * [w3schools - ORDER BY](https://www.w3schools.com/sql/sql_orderby.asp)
 
