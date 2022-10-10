@@ -13,7 +13,7 @@
 
 [5. ORDER BY](#5-order-by)
 
-[Bibliografia e Referências](#bibliografia-e-referencias)
+[Bibliografia e Referências](#bibliografia-e-referências)
 
 [Outros](#outros)
 
@@ -95,7 +95,7 @@ FROM estudante;
 NOTA: ```idade + 3 AS idade_finalista``` permite renomear o nome da coluna ```idade + 3``` em ```idade_finalista```. Podemos ainda, para simplificar, omitir a palavra ```AS``` e escrever ```idade + 3 idade_finalista```
 
 ### Exercícios
-
+Para cada uma das alíneas seguintes, escreva a query que permite obter:
 
 ## 4. DISTINCT
 O operador DISTINCT permite obter apenas valores distintos/diferentes, i.e. permite remover duplicados.
@@ -114,6 +114,10 @@ FROM estudante;
 ```
 
 ### Exercícios
+Para cada uma das alíneas seguintes, escreva a query que permite obter:
+1. A lista de todos os nomes próprios diferentes de empregados
+2. A lista de todos os valores salariais diferentes
+3. A lista de tuplos de combinação de valores nome, salário diferentes
 
 
 ## 5. ORDER BY
@@ -136,7 +140,11 @@ ORDER BY idade DESC;
 ```
 
 ### Exercícios
-
+Para cada uma das alíneas seguintes, escreva a query que permite obter:
+1. Obter a lista de todos os nomes próprios ordenados por ordem alfabética
+2. Obter a lista de todos os nomes próprios diferentes ordenados por ordem alfabética
+3. Obter a lista de empregados por ordem decrescente de salário
+4. Obter a lista de todos os empregados (nome próprio, apelido e salário) ordenado por salário ordem decrescente e nome próprio ordem ascendente
 
 ## Bibliografia e Referências
 * [w3schools - SQL Operators](https://www.w3schools.com/sql/sql_operators.asp)
