@@ -14,6 +14,8 @@ Bom trabalho!
 
 [5. ORDER BY](#5-order-by)
 
+[6. Trabalho de Casa](#6-trabalho-de-casa)
+
 [Bibliografia e Referências](#bibliografia-e-referências)
 
 [Outros](#outros)
@@ -148,6 +150,13 @@ Para cada uma das alíneas seguintes, escreva a query que permite obter:
 2. Obter a lista de todos os nomes próprios diferentes ordenados por ordem alfabética
 3. Obter a lista de empregados por ordem decrescente de salário
 4. Obter a lista de todos os empregados (nome próprio, apelido e salário) ordenado por salário ordem decrescente e nome próprio ordem ascendente
+
+## 6. Trabalho de Casa
+Para cada uma das alíneas seguintes, escreva a query que permite obter:
+1. Para cada empregado, o seu primeiro nome, o valor do seu salário atual e do salário após redução de 15% e salário com aumento de 25%
+2. Lista de todos os empregados (primeiro nome, último nome e comissão) que recebem comissão (comissão não é NULL)
+3. Lista de todos os valores de salários distintos
+4. Lista de todos os nomes de países ordenados por ordem alfabética
 
 ## Bibliografia e Referências
 * [w3schools - SQL Operators](https://www.w3schools.com/sql/sql_operators.asp)
