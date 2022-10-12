@@ -158,6 +158,8 @@ Para cada uma das alíneas seguintes, escreva a query que permite obter:
 3. Lista de todos os valores de salários distintos
 4. Lista de todos os nomes de países ordenados por ordem alfabética
 
+  NOTA: submeta a sua resposta ao trabalho de casa no moodle, um exercício por linha, num ficheiro de texto com o nome TPC1_[N_ALUNO].sql (exemplo: TPC1_12345.sql para o aluno número 12345).
+
 ## Bibliografia e Referências
 * [w3schools - SQL Operators](https://www.w3schools.com/sql/sql_operators.asp)
 * [w3schools - NULL values](https://www.w3schools.com/sql/sql_null_values.asp)
